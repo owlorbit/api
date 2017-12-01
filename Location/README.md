@@ -44,6 +44,8 @@ Location related endpoints.
 
         latitude : float,
 
+        altitude : float,
+
         metadata : json,
 
         email : string, 
@@ -97,6 +99,8 @@ Location related endpoints.
 
         latitude : float,
 
+        altitude : float,
+
         metadata : json,
 
         email : string, 
@@ -143,7 +147,7 @@ Location related endpoints.
 * **Success Response:**
 
    **Content:** `{'message' : string,
-        'locations' : [  location { longitude : float, latitude : float, metadata : json, email : string, phone_number : string, first_name : string, last_name : string, avatar : string }... ] }`
+        'locations' : [  location { longitude : float, latitude : float, altitude : float, metadata : json, email : string, phone_number : string, first_name : string, last_name : string, avatar : string }... ] }`
 
   Contains an array of `location`
 
@@ -167,12 +171,13 @@ Location related endpoints.
 * **Method:**
 
   * `POST`
-  
+
 * **Data Params:**
 
   * `email` - String <br/>
   * `longitude` - Double <br/>
   * `latitude` - Double <br/>
+  * `altitude` - Double (optional) <br/>
   * `metadata` - JSON (optional) <br/>
   * `publicKey` - String <br/>
   * `privateKey` - String  <br/>
