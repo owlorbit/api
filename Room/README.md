@@ -128,7 +128,7 @@ Room related endpoints.
 
 * **URL**
 
-  <https://api.owlorbit.com/v1/room/join_room_by_email>
+  <https://api.owlorbit.com/v1/room/create>
 
 * **Method:**
 
