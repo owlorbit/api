@@ -25,6 +25,7 @@ Meetup related endpoints.
   
 * **Data Params:**
 
+  * `roomId` - int <br/>
   * `publicKey` - String <br/>
   * `privateKey` - String  <br/>
   * `encryptedSession` - String <br/>
