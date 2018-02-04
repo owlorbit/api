@@ -105,6 +105,7 @@ Meetup related endpoints.
   
 * **Data Params:**
   
+  * `meetupId` - int <br/> 
   * `longitude` - float <br/>    
   * `latitude` - float <br/>      
   * `metadata` - JSON (optional) <br/>    
