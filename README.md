@@ -15,7 +15,7 @@
   - [Groups](./Group/README.md)
   - [Meetup](./Meetup/README.md)  
   - [Message](./Message/README.md)    
-  - [Message Templates](./Message_Templates/README.md)    
+  - [Message Templates](./Message_Template/README.md)    
   - [Polling](./Polling/README.md)      
 
 
