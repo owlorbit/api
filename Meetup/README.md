@@ -7,7 +7,7 @@ Meetup related endpoints.
 - [Get All Meetup Points in Room](#get-all-meetup-points-in-room)
 - [Add Meetup Point](#add-meetup-point)
 - [Update Meetup Point](#update-meetup-point)
-- [Disable Meetup Point](#update-meetup-point)
+- [Disable Meetup Point](#disable-meetup-point)
 
 ## Get All Meetup Points in Room
 
@@ -109,6 +109,43 @@ Meetup related endpoints.
   * `longitude` - float <br/>    
   * `latitude` - float <br/>      
   * `metadata` - JSON (optional) <br/>    
+  * `publicKey` - String <br/>
+  * `privateKey` - String  <br/>
+  * `encryptedSession` - String <br/>
+  * `sessionHash` - String
+
+
+
+* **Success Response:**
+
+   **Content:** `{'message' : string }`
+
+   Success message will be returned.
+
+  
+* **Error Response:**
+
+    **Content:** `{'message' : string,
+        'successful' : false}`              
+
+
+## Disable Meetup Point
+
+* **Description:**
+  
+  Disable Meetup Point
+
+* **URL**
+
+  <https://api.owlorbit.com/v1/meetup/disable>
+
+* **Method:**
+
+  * `POST`
+  
+* **Data Params:**
+  
+  * `meetupId` - int <br/> 
   * `publicKey` - String <br/>
   * `privateKey` - String  <br/>
   * `encryptedSession` - String <br/>
