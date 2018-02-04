@@ -32,7 +32,7 @@ Message related endpoints.
 * **Success Response:**
 
    **Content:** `{'message' : string,
-        'templates' : [  template { message_template_id : int,  group_id: int, name : string, choice }... ] }`
+        'templates' : [  template { message_template_id : int,  group_id: int, name : string, choice : string }... ] }`
 
   Contains an array of `templates`
 
