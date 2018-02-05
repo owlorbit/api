@@ -148,7 +148,7 @@ Polling related endpoints.
 * **Success Response:**
 
     **Content:** `{ message : string, 
-    'responses' : [  response { polling_id : int, polling_choice_id : int, email : string, created : timestamp }... ] }`
+    'polling_id' : int }`
 
   Contains an array of `responses`
 
