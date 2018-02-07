@@ -24,8 +24,13 @@
   Additionally, v2 will contain http-compliant POST, GET, etc, error response codes and proper URL naming schemes.
 
   Non-commercial users may experience throttling.
+  
+  **Android SDK**
 
-  iOS + Android SDK's will be coming soon!
+  View the link here: https://github.com/owlorbit/owlorbit_android_sdk
+
+  **iOS SDK**
+  SDK will be coming soon!
 
   Feel free to reach out to tim.nguyen@owlorbit.com if you have any questions with the API.
 
