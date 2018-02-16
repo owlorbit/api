@@ -25,7 +25,6 @@ Message related endpoints.
 * **Data Params:**
 
   * `publicKey` - String <br/>
-  * `privateKey` - String  <br/>
   * `encryptedSession` - String <br/>
   * `sessionHash` - String
 
@@ -62,7 +61,6 @@ Message related endpoints.
   * `choices` - string[] <br/>  
   * `templateName` - string <br/>
   * `publicKey` - String <br/>
-  * `privateKey` - String  <br/>
   * `encryptedSession` - String <br/>
   * `sessionHash` - String
 
@@ -98,7 +96,6 @@ Message related endpoints.
   * `choices` - string[] <br/>
   * `templateName` - string <br/>  
   * `publicKey` - String <br/>
-  * `privateKey` - String  <br/>
   * `encryptedSession` - String <br/>
   * `sessionHash` - String
 
