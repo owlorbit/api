@@ -26,7 +26,6 @@ Group related endpoints.
 * **Data Params:**
 
   * `publicKey` - String <br/>
-  * `privateKey` - String  <br/>
   * `encryptedSession` - String <br/>
   * `sessionHash` - String
 
@@ -63,7 +62,6 @@ Group related endpoints.
   * `groupName` - String <br/>
   * `usersAdded` - int[] <br/>  
   * `publicKey` - String <br/>
-  * `privateKey` - String  <br/>
   * `encryptedSession` - String <br/>
   * `sessionHash` - String
 
@@ -95,7 +93,6 @@ Group related endpoints.
   * `groupId` - int <br/>  
   * `usersAdded` - int[] <br/>  
   * `publicKey` - String <br/>
-  * `privateKey` - String  <br/>
   * `encryptedSession` - String <br/>
   * `sessionHash` - String
 
