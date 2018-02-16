@@ -63,9 +63,6 @@ User related endpoints.
   * `first_name` - String <br/>
   * `last_name` - String <br/> 
   * `phone_number` - String <br/>
-  * `description` - String <br/> 
-  * `domain` - String <br/>
-  * `isPublic` - Int (0, 1) <br/>
   * `publicKey` - String <br/>
   * `encryptedSession` - String <br/>
   * `sessionHash` - String
