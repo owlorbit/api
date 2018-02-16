@@ -27,7 +27,6 @@ Polling related endpoints.
 * **Data Params:**
   
   * `publicKey` - String <br/>
-  * `privateKey` - String  <br/>
   * `encryptedSession` - String <br/>
   * `sessionHash` - String
 
@@ -62,7 +61,6 @@ Polling related endpoints.
   
   * `pollingId` - int <br/>
   * `publicKey` - String <br/>
-  * `privateKey` - String  <br/>
   * `encryptedSession` - String <br/>
   * `sessionHash` - String
 
@@ -98,7 +96,6 @@ Polling related endpoints.
   
   * `pollingChoiceId` - int <br/>
   * `publicKey` - String <br/>
-  * `privateKey` - String  <br/>
   * `encryptedSession` - String <br/>
   * `sessionHash` - String
 
@@ -137,7 +134,6 @@ Polling related endpoints.
   * `groupId` - int (optional) <br/>
   * `manualLocationEnabled` - int (0, 1) <br/>
   * `publicKey` - String <br/>
-  * `privateKey` - String  <br/>
   * `encryptedSession` - String <br/>
   * `sessionHash` - String
 
