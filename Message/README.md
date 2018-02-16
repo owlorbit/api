@@ -26,7 +26,6 @@ Message related endpoints.
   * `roomId` - int <br/>
   * `pageIndex` - int <br/>
   * `publicKey` - String <br/>
-  * `privateKey` - String  <br/>
   * `encryptedSession` - String <br/>
   * `sessionHash` - String
 
@@ -65,7 +64,6 @@ Message related endpoints.
   * `roomId` - int <br/>
   * `message` - String <br/>  
   * `publicKey` - String <br/>
-  * `privateKey` - String  <br/>
   * `encryptedSession` - String <br/>
   * `sessionHash` - String
 
