@@ -27,7 +27,6 @@ Location related endpoints.
 * **Data Params:**
 
   * `publicKey` - String <br/>
-  * `privateKey` - String  <br/>
   * `encryptedSession` - String <br/>
   * `sessionHash` - String
 
@@ -82,7 +81,6 @@ Location related endpoints.
 * **Data Params:**
 
   * `publicKey` - String <br/>
-  * `privateKey` - String  <br/>
   * `encryptedSession` - String <br/>
   * `sessionHash` - String
 
@@ -138,7 +136,6 @@ Location related endpoints.
 
   * `roomId` - Int <br/>
   * `publicKey` - String <br/>
-  * `privateKey` - String  <br/>
   * `encryptedSession` - String <br/>
   * `sessionHash` - String
 
@@ -180,7 +177,6 @@ Location related endpoints.
   * `altitude` - Double (optional) <br/>
   * `metadata` - JSON (optional) <br/>
   * `publicKey` - String <br/>
-  * `privateKey` - String  <br/>
   * `encryptedSession` - String <br/>
   * `sessionHash` - String
 
