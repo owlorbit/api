@@ -109,7 +109,7 @@ User related endpoints.
 * **Success Response:**
 
    **Content:** `{'message' : string,
-        'users' : [  user { userId: int, email : string, phone_number : string, first_name : string, last_name : string, avatar : string }... ] }`
+        'users' : [  user { user_id: int, email : string, phone_number : string, first_name : string, last_name : string, avatar : string }... ] }`
 
   Contains an array of `users`
 
