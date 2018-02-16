@@ -26,7 +26,6 @@ Room related endpoints.
 * **Data Params:**
 
   * `publicKey` - String <br/>
-  * `privateKey` - String  <br/>
   * `encryptedSession` - String <br/>
   * `sessionHash` - String
 
@@ -64,7 +63,6 @@ Room related endpoints.
 
   * `email` - String <br/>
   * `publicKey` - String <br/>
-  * `privateKey` - String  <br/>
   * `encryptedSession` - String <br/>
   * `sessionHash` - String
 
@@ -102,7 +100,6 @@ Room related endpoints.
   * `roomId` - int <br/>
   * `email` - String <br/>  
   * `publicKey` - String <br/>
-  * `privateKey` - String  <br/>
   * `encryptedSession` - String <br/>
   * `sessionHash` - String
 
@@ -143,7 +140,6 @@ Room related endpoints.
   * `isPublic` - int (0, 1) <br/>  
   * `messageTemplateId` - int (optional) <br/>  
   * `publicKey` - String <br/>
-  * `privateKey` - String  <br/>
   * `encryptedSession` - String <br/>
   * `sessionHash` - String
 
