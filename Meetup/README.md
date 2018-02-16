@@ -28,7 +28,6 @@ Meetup related endpoints.
 
   * `roomId` - int <br/>
   * `publicKey` - String <br/>
-  * `privateKey` - String  <br/>
   * `encryptedSession` - String <br/>
   * `sessionHash` - String
 
@@ -65,7 +64,6 @@ Meetup related endpoints.
 
   * `email` - String <br/>
   * `publicKey` - String <br/>
-  * `privateKey` - String  <br/>
   * `encryptedSession` - String <br/>
   * `sessionHash` - String
 
@@ -110,7 +108,6 @@ Meetup related endpoints.
   * `isGlobal` - int (0, 1) <br/>    
   * `subtitle` - String <br/>  
   * `publicKey` - String <br/>
-  * `privateKey` - String  <br/>
   * `encryptedSession` - String <br/>
   * `sessionHash` - String
 
@@ -148,7 +145,6 @@ Meetup related endpoints.
   * `latitude` - float <br/>      
   * `metadata` - JSON (optional) <br/>    
   * `publicKey` - String <br/>
-  * `privateKey` - String  <br/>
   * `encryptedSession` - String <br/>
   * `sessionHash` - String
 
@@ -185,7 +181,6 @@ Meetup related endpoints.
   
   * `meetupId` - int <br/> 
   * `publicKey` - String <br/>
-  * `privateKey` - String  <br/>
   * `encryptedSession` - String <br/>
   * `sessionHash` - String
 
