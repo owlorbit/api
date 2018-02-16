@@ -28,7 +28,6 @@ User related endpoints.
   * `email` - String <br/>
   * `domain` - String <br/>
   * `publicKey` - String <br/>
-  * `privateKey` - String  <br/>
   * `encryptedSession` - String <br/>
   * `sessionHash` - String
 
@@ -68,7 +67,6 @@ User related endpoints.
   * `domain` - String <br/>
   * `isPublic` - Int (0, 1) <br/>
   * `publicKey` - String <br/>
-  * `privateKey` - String  <br/>
   * `encryptedSession` - String <br/>
   * `sessionHash` - String
 
@@ -103,7 +101,6 @@ User related endpoints.
 * **Data Params:**
 
   * `publicKey` - String <br/>
-  * `privateKey` - String  <br/>
   * `encryptedSession` - String <br/>
   * `sessionHash` - String
 
