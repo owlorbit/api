@@ -69,7 +69,7 @@ Message related endpoints.
 
 * **Success Response:**
 
-   **Content:** `{'message' : string, 'message_id' => int}`
+   **Content:** `{'message' : string, 'message_id' : int}`
 
   Contains a success message.
 
