@@ -96,6 +96,7 @@ Message related endpoints.
   * `messageTemplateId` - int <br/>
   * `choices` - string[] <br/>
   * `templateName` - string <br/>  
+  * `groupId` - int (optional) <br/>    
   * `publicKey` - String <br/>
   * `encryptedSession` - String <br/>
   * `sessionHash` - String
