@@ -50,7 +50,8 @@ Message related endpoints.
 * **Description:**
   
   Send message in room.  Get roomId through <a href="../Room/README.md#get-all-rooms-in-domain">Room Routes</a>
-
+  If email is not specified, message is sent by admin.
+  
 * **URL**
 
   <https://api.owlorbit.com/v1/message/send>
@@ -62,7 +63,7 @@ Message related endpoints.
 * **Data Params:**
 
   * `roomId` - int <br/>
-  * `email` - String <br/>    
+  * `email` - String (optional) <br/>    
   * `message` - String <br/>  
   * `publicKey` - String <br/>
   * `encryptedSession` - String <br/>
