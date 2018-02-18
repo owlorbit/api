@@ -62,6 +62,7 @@ Message related endpoints.
 * **Data Params:**
 
   * `roomId` - int <br/>
+  * `email` - String <br/>    
   * `message` - String <br/>  
   * `publicKey` - String <br/>
   * `encryptedSession` - String <br/>
