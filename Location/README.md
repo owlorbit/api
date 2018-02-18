@@ -80,6 +80,7 @@ Location related endpoints.
   
 * **Data Params:**
 
+  * `email` - String <br/>
   * `publicKey` - String <br/>
   * `encryptedSession` - String <br/>
   * `sessionHash` - String
