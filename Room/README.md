@@ -133,7 +133,7 @@ Room related endpoints.
   
 * **Data Params:**
 
-  * `usersAdded` - int[] <br/>
+  * `userIds` - int[] <br/>
   * `email` - String <br/>  
   * `name` - String <br/>  
   * `isFriendsOnly` - int (0, 1) <br/>  
