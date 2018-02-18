@@ -106,7 +106,6 @@ Meetup related endpoints.
   * `latitude` - float <br/>      
   * `metadata` - JSON (optional) <br/>  
   * `isGlobal` - int (0, 1) <br/>    
-  * `subtitle` - String <br/>  
   * `publicKey` - String <br/>
   * `encryptedSession` - String <br/>
   * `sessionHash` - String
