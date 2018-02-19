@@ -31,7 +31,7 @@
 
   **iOS SDK**
   
-  SDK will be coming soon!
+  View the link here: https://github.com/owlorbit/owlorbit_ios_sdk
 
   Feel free to reach out to tim.nguyen@owlorbit.com if you have any questions with the API.
 
