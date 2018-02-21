@@ -8,6 +8,7 @@ Polling related endpoints.
 - [Get Choices by Id](#get-choices-by-id)
 - [Get Responses](#get-responses)
 - [Create Poll](#create-poll)
+- [Submit Poll Choice](#submit-poll-choice)
 
 
 ## List all running polls
@@ -151,4 +152,41 @@ Polling related endpoints.
  
 * **Error Response:**
 
-    **Content:** `{ message : String, successful: false }`      
+    **Content:** `{ message : String, successful: false }`    
+    
+## Submit Poll Choice
+
+* **Description:**
+  
+  Submit poll choice
+
+* **URL**
+
+  <https://api.owlorbit.com/v1/polling/submit_choice>
+
+* **Method:**
+
+  * `POST`
+  
+* **Data Params:**
+  
+  * `pollingId` - String <br/>
+  * `email` - String <br/>  
+  * `choiceId` - int <br/>    
+  * `publicKey` - String <br/>
+  * `encryptedSession` - String <br/>
+  * `sessionHash` - String
+
+
+* **Success Response:**
+
+    **Content:** `{ message : string }`
+
+  Contains an array of `polls`
+
+ 
+* **Error Response:**
+
+    **Content:** `{ message : String, successful: false }`
+
+## Get Choices by Id    
